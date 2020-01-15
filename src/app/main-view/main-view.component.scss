@@ -1,0 +1,22 @@
+.main-view {
+    display: flex;
+    min-height: calc(100vh - 150px);
+
+    &__sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        background-color: #b7e4b0
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        background-color: #d5f1d1
+    }
+}

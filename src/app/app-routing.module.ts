@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ContactComponent } from "./contact/contact.component";
-import { NotFoundComponent } from "./not-found/not-found.component";
-import { HelloWorldComponent } from "./hello-world/hello-world.component";
+import { ContactComponent } from './contact/contact.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HelloWorldComponent
   },
   {
-    path: 'contact',
+    path: 'contacts',
     component: ContactComponent
   },
   {

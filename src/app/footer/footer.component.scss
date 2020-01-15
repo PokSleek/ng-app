@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(94, 196, 140);
+
+    &__label {
+        font-size: 18px;
+        color: #104a0a
+    }
+  }
